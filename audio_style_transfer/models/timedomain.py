@@ -317,9 +317,9 @@ def run(content_fname,
         iterations=iterations)
 
     s = unchop(result, hop_size=hop_length, frame_size=frame_size)
-    sf.write(output_fname, s, sr=sr)
+    sf.write(output_fname, s, sr)
     s = utils.limiter(s)
-    sf.write(output_fname + '.limiter.wav', s, sr=sr)
+    sf.write(output_fname + '.limiter.wav', s, sr)
 
 
 def batch(content_path, style_path, output_path, model):
