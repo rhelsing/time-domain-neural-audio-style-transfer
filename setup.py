@@ -20,7 +20,7 @@ AUTHOR = 'Parag Mital'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'tensorflow', 'librosa', 'magenta'
+    'tensorflow', 'librosa', 'magenta', 'soundfile'
 ]
 
 # The rest you shouldn't have to touch too much :)
